@@ -7,5 +7,5 @@ route.post("/addpatient/:hid/:pid", addPatient);
 route.post("/addpsychiatrist/:hid", addPsychiatrist);
 route.post("/addhospital", addHospital);
 
-route.get('/getalldetails', getAllDetails);
+route.post('/getalldetails', getAllDetails);
 export default route;
