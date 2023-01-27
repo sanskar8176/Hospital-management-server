@@ -8,9 +8,6 @@
 	"item": [
 		{
 			"name": "getdetailswithhospitalid",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
 			"request": {
 				"method": "POST",
 				"header": [],
@@ -45,7 +42,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"patientname\":\"test\",\r\n    \"patientaddress\": \"testaddress india\",\r\n    \"patientemail\":\"test32@gmail.com\",\r\n    \"patientphone\" : \"+91 9136812895\",\r\n    \"patientpassword\":\"Testpass1234\",\r\n    \"patientpic\":\"https://res.cloudinary.com/dh9rf3psk/image/upload/v1673967493/photos/default-avatar_lav4in.png\"\r\n\r\n}",
+					"raw": "{\r\n    \"patientname\":\"test\",\r\n    \"patientaddress\": \"testaddress india\",\r\n    \"patientemail\":\"test33@gmail.com\",\r\n    \"patientphone\" : \"+91 9136812895\",\r\n    \"patientpassword\":\"Testpass1234\",\r\n    \"patientpic\":\"https://res.cloudinary.com/dh9rf3psk/image/upload/v1673967493/photos/default-avatar_lav4in.png\"\r\n\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -113,6 +110,37 @@
 					],
 					"path": [
 						"63d236f97f09f9b28c120ce4"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "server-getalldetails",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n     \"hospitalid\":\"63d236df7f09f9b28c120cde\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://hospital-api-otx0.onrender.com/api/getalldetails/",
+					"protocol": "https",
+					"host": [
+						"hospital-api-otx0",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"api",
+						"getalldetails",
+						""
 					]
 				}
 			},

@@ -48,7 +48,7 @@ export const addPatient = async (req, res) => {
             });
           } else {
             try {
-              const hospitalExist = await Hospital.findOne({ _id: hid });
+              const hospitalExist = await Hospital.findById({ _id: hid });
               if (hospitalExist) {
                 const arr = hospitalExist.hospitalpsychiatrists;
                 let present = 0;

@@ -1,9 +1,11 @@
 # README
 
 ## Introduction
-This repository contains a Node.js server that serves as a backend for a healthcare application. The server is built using the Express.js framework and connects to a MongoDB database.
 
+This repository contains a Node.js server that serves as a backend for a healthcare application. The server is built using the Express.js framework and connects to a MongoDB database.
+[Live](https://hospital-api-otx0.onrender.com/)
 ## How to run
+
 Fork the repository to your local machine
 Open the repository in your preferred code editor
 Run 
@@ -20,6 +22,7 @@ If you have nodemon installed, run
  npm start
 ```
 ## List of all the major libraries
+
 bcrypt: for password hashing
 cors: for handling cross-origin resource sharing
 dotenv: for loading environment variables
@@ -27,13 +30,17 @@ express: for building the server
 mongoose: for connecting to and querying the MongoDB database
 
 ## API endpoints details
-POST http://localhost:5000/api/addpatient/:hid/:pid 
+
+POST api/addpatient/:hid/:pid 
 for adding patient info, hospitalid and psychiatristid is given via url
-POST http://localhost:5000/api/addpsychiatrist/:hid 
+
+POST api/addpsychiatrist/:hid 
 for adding psychiatrist info, hospitalid is given via url
-POST http://localhost:5000/api/addhospital 
+
+POST api/addhospital 
 for adding hospital info
-GET http://localhost:5000/api/getalldetails 
+
+POST api/getalldetails 
 for fetch all detials via hospitalid as req.body
 
 
