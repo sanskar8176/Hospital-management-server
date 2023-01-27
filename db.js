@@ -2,9 +2,9 @@
 import mongoose from 'mongoose';
 
 
- const dbConnect = async()=> {
+ const dbConnect = async(user, password)=> {
     // database name is HospitalDb 
-       const MONGO_URL = "mongodb://localhost:27017/HospitalDb";
+       const MONGO_URL =`mongodb+srv://${user}:${password}@cluster0.sbxqbjd.mongodb.net/?retryWrites=true&w=majority` || "mongodb://localhost:27017/HospitalDb";
 
          try{
             mongoose.set("strictQuery", false);

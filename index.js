@@ -8,7 +8,7 @@ const app = express();
 
 const port = process.env.PORT || 5000 ;
 
-dbConnect();
+dbConnect(process.env.MONGO_USER, process.env.MONGO_PASSWORD);
 
 
 app.listen(port, ()=>{
