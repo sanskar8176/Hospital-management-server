@@ -1,0 +1,93 @@
+[{
+  "_id": {
+    "$oid": "63d236bb7f09f9b28c120cdb"
+  },
+  "hospitalname": "Apollo Hospitals",
+  "hospitalpsychiatrists": [
+    {
+      "$oid": "63d243ea4cf835b8c376e99e"
+    },
+    {
+      "$oid": "63d24461902298a8098f7f87"
+    },
+    {
+      "$oid": "63d24467902298a8098f7f8c"
+    },
+    {
+      "$oid": "63d244a4902298a8098f7f91"
+    },
+    {
+      "$oid": "63d245059f90765dad7c8c92"
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d236df7f09f9b28c120cde"
+  },
+  "hospitalname": "Jawaharlal Nehru Medical College and Hospital",
+  "hospitalpsychiatrists": [
+    {
+      "$oid": "63d27d98e42d939f859460d6"
+    },
+    {
+      "$oid": "63d27dc0e42d939f859460db"
+    },
+    {
+      "$oid": "63d27dc4e42d939f859460e0"
+    },
+    {
+      "$oid": "63d27dd2fb4d6d41c3ac7453"
+    },
+    {
+      "$oid": "63d27dd4fb4d6d41c3ac7458"
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d236ed7f09f9b28c120ce1"
+  },
+  "hospitalname": "Indira Gandhi Institute of Medical Sciences (IGIMS)",
+  "hospitalpsychiatrists": [
+    {
+      "$oid": "63d27e03fb4d6d41c3ac745e"
+    },
+    {
+      "$oid": "63d27e07fb4d6d41c3ac7463"
+    },
+    {
+      "$oid": "63d27e08fb4d6d41c3ac7468"
+    },
+    {
+      "$oid": "63d27e09fb4d6d41c3ac746d"
+    },
+    {
+      "$oid": "63d27e0dfb4d6d41c3ac7472"
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d236f97f09f9b28c120ce4"
+  },
+  "hospitalname": "AIIMS - All India Institute Of Medical Science",
+  "hospitalpsychiatrists": [
+    {
+      "$oid": "63d27e22fb4d6d41c3ac7477"
+    },
+    {
+      "$oid": "63d27e24fb4d6d41c3ac747c"
+    },
+    {
+      "$oid": "63d27e26fb4d6d41c3ac7481"
+    },
+    {
+      "$oid": "63d27e28fb4d6d41c3ac7486"
+    },
+    {
+      "$oid": "63d27e2afb4d6d41c3ac748b"
+    }
+  ],
+  "__v": 0
+}]

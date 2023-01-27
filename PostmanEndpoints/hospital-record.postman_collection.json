@@ -1,0 +1,128 @@
+{
+	"info": {
+		"_postman_id": "45b8fecf-dcff-4287-a8ab-f526376f7620",
+		"name": "hospital-record",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "16243159"
+	},
+	"item": [
+		{
+			"name": "getdetailswithhospitalid",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"hospitalid\":\"63d236df7f09f9b28c120cde\"\r\n}\r\n\r\n\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/getalldetails",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"getalldetails"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "addPatient",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"patientname\":\"test\",\r\n    \"patientaddress\": \"testaddress india\",\r\n    \"patientemail\":\"test32@gmail.com\",\r\n    \"patientphone\" : \"+91 9136812895\",\r\n    \"patientpassword\":\"Testpass1234\",\r\n    \"patientpic\":\"https://res.cloudinary.com/dh9rf3psk/image/upload/v1673967493/photos/default-avatar_lav4in.png\"\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{hospitalbase}}addpatient/63d236f97f09f9b28c120ce4/63d27e28fb4d6d41c3ac7486",
+					"host": [
+						"{{hospitalbase}}addpatient"
+					],
+					"path": [
+						"63d236f97f09f9b28c120ce4",
+						"63d27e28fb4d6d41c3ac7486"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "addhospital",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"hospitalname\": \"AIIMS - All India Institute Of Medical Science\",\r\n    \"hospitalpsychiatrist\":[]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{hospitalbase}}addhospital/63d236bb7f09f9b28c120cdb/",
+					"host": [
+						"{{hospitalbase}}addhospital"
+					],
+					"path": [
+						"63d236bb7f09f9b28c120cdb",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "addpsychiatrist",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"psychiatristname\": \"psy20\",\r\n    \"psychiatristpatients\": []\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{hospitalbase}}addpsychiatrist/63d236f97f09f9b28c120ce4",
+					"host": [
+						"{{hospitalbase}}addpsychiatrist"
+					],
+					"path": [
+						"63d236f97f09f9b28c120ce4"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"variable": [
+		{
+			"key": "hospitalbase",
+			"value": "http://localhost:5000/api/"
+		}
+	]
+}

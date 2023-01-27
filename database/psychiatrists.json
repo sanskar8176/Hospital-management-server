@@ -1,0 +1,246 @@
+[{
+  "_id": {
+    "$oid": "63d243ea4cf835b8c376e99e"
+  },
+  "psychiatristname": "psy1",
+  "psychiatristpatients": [
+    {
+      "$oid": "63d2776d7e30daa3c21539fb"
+    },
+    {
+      "$oid": "63d277707e30daa3c2153a01"
+    },
+    {
+      "$oid": "63d277747e30daa3c2153a07"
+    },
+    {
+      "$oid": "63d277767e30daa3c2153a0d"
+    },
+    {
+      "$oid": "63d277787e30daa3c2153a13"
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d24461902298a8098f7f87"
+  },
+  "psychiatristname": "psy2",
+  "psychiatristpatients": [
+    {
+      "$oid": "63d26ded7e30daa3c21539dc"
+    },
+    {
+      "$oid": "63d2772a7e30daa3c21539e2"
+    },
+    {
+      "$oid": "63d2772e7e30daa3c21539e8"
+    },
+    {
+      "$oid": "63d277307e30daa3c21539ee"
+    },
+    {
+      "$oid": "63d277337e30daa3c21539f4"
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d24467902298a8098f7f8c"
+  },
+  "psychiatristname": "psy3",
+  "psychiatristpatients": [
+    {
+      "$oid": "63d277f67e30daa3c2153a19"
+    },
+    {
+      "$oid": "63d277f97e30daa3c2153a1f"
+    },
+    {
+      "$oid": "63d277fa7e30daa3c2153a25"
+    },
+    {
+      "$oid": "63d277fc7e30daa3c2153a2b"
+    },
+    {
+      "$oid": "63d277fe7e30daa3c2153a31"
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d244a4902298a8098f7f91"
+  },
+  "psychiatristname": "psy5",
+  "psychiatristpatients": [
+    {
+      "$oid": "63d278247e30daa3c2153a55"
+    },
+    {
+      "$oid": "63d278337e30daa3c2153a5b"
+    },
+    {
+      "$oid": "63d278377e30daa3c2153a61"
+    },
+    {
+      "$oid": "63d2783a7e30daa3c2153a67"
+    },
+    {
+      "$oid": "63d2783c7e30daa3c2153a6d"
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d245059f90765dad7c8c92"
+  },
+  "psychiatristname": "psy4",
+  "psychiatristpatients": [
+    {
+      "$oid": "63d2780c7e30daa3c2153a37"
+    },
+    {
+      "$oid": "63d278127e30daa3c2153a3d"
+    },
+    {
+      "$oid": "63d278147e30daa3c2153a43"
+    },
+    {
+      "$oid": "63d278167e30daa3c2153a49"
+    },
+    {
+      "$oid": "63d278187e30daa3c2153a4f"
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d27d98e42d939f859460d6"
+  },
+  "psychiatristname": "psy6",
+  "psychiatristpatients": [
+    {
+      "$oid": "63d27e97fb4d6d41c3ac749d"
+    },
+    {
+      "$oid": "63d27e9afb4d6d41c3ac74a3"
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d27dc0e42d939f859460db"
+  },
+  "psychiatristname": "psy7",
+  "psychiatristpatients": [],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d27dc4e42d939f859460e0"
+  },
+  "psychiatristname": "psy8",
+  "psychiatristpatients": [
+    {
+      "$oid": "63d27ea5fb4d6d41c3ac74a9"
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d27dd2fb4d6d41c3ac7453"
+  },
+  "psychiatristname": "psy9",
+  "psychiatristpatients": [],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d27dd4fb4d6d41c3ac7458"
+  },
+  "psychiatristname": "psy10",
+  "psychiatristpatients": [],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d27e03fb4d6d41c3ac745e"
+  },
+  "psychiatristname": "psy11",
+  "psychiatristpatients": [
+    {
+      "$oid": "63d27eedfb4d6d41c3ac74af"
+    },
+    {
+      "$oid": "63d27ef1fb4d6d41c3ac74b5"
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d27e07fb4d6d41c3ac7463"
+  },
+  "psychiatristname": "psy12",
+  "psychiatristpatients": [],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d27e08fb4d6d41c3ac7468"
+  },
+  "psychiatristname": "psy13",
+  "psychiatristpatients": [],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d27e09fb4d6d41c3ac746d"
+  },
+  "psychiatristname": "psy14",
+  "psychiatristpatients": [],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d27e0dfb4d6d41c3ac7472"
+  },
+  "psychiatristname": "psy15",
+  "psychiatristpatients": [],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d27e22fb4d6d41c3ac7477"
+  },
+  "psychiatristname": "psy16",
+  "psychiatristpatients": [],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d27e24fb4d6d41c3ac747c"
+  },
+  "psychiatristname": "psy17",
+  "psychiatristpatients": [],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d27e26fb4d6d41c3ac7481"
+  },
+  "psychiatristname": "psy18",
+  "psychiatristpatients": [],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d27e28fb4d6d41c3ac7486"
+  },
+  "psychiatristname": "psy19",
+  "psychiatristpatients": [
+    {
+      "$oid": "63d27f0cfb4d6d41c3ac74bb"
+    },
+    {
+      "$oid": "63d27f0efb4d6d41c3ac74c1"
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d27e2afb4d6d41c3ac748b"
+  },
+  "psychiatristname": "psy20",
+  "psychiatristpatients": [],
+  "__v": 0
+}]
